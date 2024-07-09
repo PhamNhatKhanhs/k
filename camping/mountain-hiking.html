@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Hiking</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #e0f2f1; /* Đổ màu nền cho khoảng trắng hai bên lề */
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #004d40;
+            padding: 10px;
+        }
+        .logo a {
+            color: #80cbc4;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .content {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #004d40;
+        }
+        .content p {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #00796b;
+        }
+        .content img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            text-align: left;
+            padding: 20px;
+            background-color: #b2dfdb; /* Màu nền cho khối info */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 40px); /* Giảm chiều rộng để phù hợp với padding */
+            margin: 20px auto;
+        }
+        .info p {
+            font-size: 1em;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .info ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .info strong {
+            color: #004d40;
+        }
+        .map {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer .link {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer a {
+            color: #80cbc4;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="mountain-hiking.html">Mountain Hiking</a></h2>
+            <ul class="all-links">
+                <li><a href="index.html#home"></a></li>
+                <li><a href="index.html#portfolio"></a></li>
+                <li><a href="index.html#about"></a></li>
+                <li><a href="index.html#contact"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="exploration-page" id="mountain-hiking">
+        <div class="content">
+            <p style="margin-top: 45px;">
+                Embrace the challenge and thrill of mountain hiking. Our mission is to connect people with nature, 
+                promote conservation, and inspire a sense of adventure. Whether you're a seasoned hiker or a curious 
+                beginner, there's something for everyone in the mountains.
+            </p>
+            <img src="https://img.upanh.tv/2024/07/06/imagea2224637bf8a48ea.png" alt="Mountain Hiking">
+            <div class="info">
+                <p><strong>Địa điểm:</strong> Alps, Europe</p>
+                <p><strong>Thời tiết:</strong> Mát mẻ, 10°C</p>
+                <p><strong>Hoạt động:</strong></p>
+                <ul>
+                    <li>Đi bộ đường dài</li>
+                    <li>Quan sát động vật hoang dã</li>
+                    <li>Chụp ảnh thiên nhiên</li>
+                    <li>Cắm trại qua đêm</li>
+                </ul>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27233991.86554605!2d8.555925779416857!3d46.818188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7fffc6b7b01b%3A0x3d4b93c7b1fcd11b!2sAlps!5e0!3m2!1sen!2s!4v1625067265881!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <span>Copyright © 2023 All Rights Reserved</span>
+            <div class="link"> 
+                <a href="index.html">Home</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

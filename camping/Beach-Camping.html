@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Camping</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa; /* Đổ màu nền cho khoảng trắng hai bên lề */
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0277bd;
+            padding: 10px;
+        }
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .content {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #01579b;
+        }
+        .content p {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #0277bd;
+        }
+        .content img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            text-align: left;
+            padding: 20px;
+            background-color: #b3e5fc; /* Màu nền cho khối info */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 40px); /* Giảm chiều rộng để phù hợp với padding */
+            margin: 20px auto;
+        }
+        .info p {
+            font-size: 1em;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .info ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .info strong {
+            color: #01579b;
+        }
+        .map {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #0277bd;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer .link {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer a {
+            color: #b3e5fc;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="beach-camping.html">Beach Camping</a></h2>
+            <ul class="all-links">
+                <li><a href="index.html#home"></a></li>
+                <li><a href="index.html#portfolio"></a></li>
+                <li><a href="index.html#about"></a></li>
+                <li><a href="index.html#contact"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="exploration-page" id="beach-camping">
+        <div class="content">
+            <p style="margin-top: 45px;">
+                Discover the thrill of beach camping. Our mission is to connect people with the serene beauty of the coast, 
+                promote conservation, and inspire a sense of adventure. Whether you're an experienced camper or a curious 
+                beginner, there's something for everyone on the sandy shores.
+            </p>
+            <img src="https://img.upanh.tv/2024/07/06/image7d955faa3803104c.png" alt="Beach Camping">
+            <div class="info">
+                <p><strong>Địa điểm:</strong> Bondi Beach, Australia</p>
+                <p><strong>Thời tiết:</strong> Nắng ấm, 25°C</p>
+                <p><strong>Hoạt động:</strong></p>
+                <ul>
+                    <li>Dã ngoại trên bãi biển</li>
+                    <li>Quan sát chim biển</li>
+                    <li>Chụp ảnh cảnh hoàng hôn</li>
+                    <li>Đốt lửa trại</li>
+                </ul>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26239982.55572885!2d6.060988574738329!3d48.2778412816247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b7b0b1b1b1b1%3A0x2d66a8ddddd5555!2sBondi%20Beach%2C%20Australia!5e0!3m2!1sen!2s!4v1625067265881!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <span>Copyright © 2023 All Rights Reserved</span>
+            <div class="link"> 
+                <a href="index.html">Home</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Camping</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #c29d75; /* Màu nền sa mạc */
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c2753f; /* Màu nền nâu cát */
+            padding: 10px;
+        }
+        .logo a {
+            color: #ffd700; /* Màu vàng cát */
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        .content {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #8b4513;
+        }
+        .content p {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #d2691e; /* Màu nâu cát nhạt */
+        }
+        .content img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            text-align: left;
+            padding: 20px;
+            background-color: #d8ba8a; /* Màu nền nhạt cho thông tin */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: calc(100% - 40px); /* Giảm chiều rộng để phù hợp với padding */
+            margin: 20px auto;
+        }
+        .info p {
+            font-size: 1em;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .info ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .info strong {
+            color: #8b4513;
+        }
+        .map {
+            margin-top: 20px;
+             /* Canh giữa bản đồ */
+        }
+        .map iframe {
+            border: 0;
+            border-radius: 10px; /* Bo tròn các góc của iframe */
+            max-width: 100%; /* Giới hạn chiều rộng của iframe */
+            height: 450px; /* Chiều cao của iframe */
+        }
+        footer {
+            background-color: #8b4513;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer .link {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="desert-camping.html">Desert Camping</a></h2>
+            <ul class="all-links">
+                <li><a href="index.html#home"></a></li>
+                <li><a href="index.html#portfolio"></a></li>
+                <li><a href="index.html#about"></a></li>
+                <li><a href="index.html#contact"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="exploration-page" id="desert-camping">
+        <div class="content">
+            <p style="margin-top: 45px;">
+                Desert camping provides the perfect opportunity to explore remote and breathtakingly beautiful areas.
+                Unplug and unwind in the heart of the desert, where the only sounds are the whisper of the wind and the call of the wild.
+                Experience the magic of the desert with our camping trips, designed for both comfort and adventure.
+            </p>
+            <img src="https://img.upanh.tv/2024/07/04/image8a1d44c8698271c7.png" alt="Desert Camping">
+            <div class="info">
+                <p><strong>Địa điểm:</strong> Sahara Desert, Morocco</p>
+                <p><strong>Thời tiết:</strong> Nắng, 35°C</p>
+                <p><strong>Hoạt động:</strong></p>
+                <ul>
+                    <li>Cưỡi lạc đà</li>
+                    <li>Quan sát động vật hoang dã</li>
+                    <li>Lặn cát</li>
+                    <li>Ngắm hoàng hôn</li>
+                </ul>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4389329.7124392!2d-7.730230437447238!3d25.326603745896473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9dd49eb4d2ff9d%3A0x5b8b33e0c3b7a7d0!2sSahara%20Desert%2C%20Morocco!5e0!3m2!1sen!2sus!4v1625067265881!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <span>Copyright © 2023 All Rights Reserved</span>
+            <div class="link"> 
+                <a href="index.html">Home</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
